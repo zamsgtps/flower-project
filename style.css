@@ -202,7 +202,7 @@ body {
   height: var(--h);
   border-top-right-radius: var(--h);
   border-bottom-left-radius: var(--h);
-  background-image: linear-gradient(to top, rgba(20, 117, 122, 0.4), #39c6d6);
+  background-image: linear-gradient(to top, black, pink);
 }
 .flower__line__leaf--1 {
   transform: rotate(70deg) rotateY(30deg);
@@ -239,13 +239,13 @@ body {
   bottom: 0vmin;
   width: 1vmin;
   height: 1vmin;
-  background-color: #fffb00;
+  background-color: pink;
   border-radius: 50%;
   filter: blur(0.2vmin);
   animation: light-ans 4s linear infinite backwards;
 }
 .flower__light:nth-child(odd) {
-  background-color: #23f0ff;
+  background-color: black;
 }
 .flower__light--1 {
   left: -2vmin;
@@ -307,7 +307,7 @@ body {
   width: 7vmin;
   height: 10vmin;
   border-top-right-radius: 100%;
-  border-right: var(--line-w) solid var(--c);
+  border-right: var(--line-w) solid pink;
   transform-origin: bottom center;
   transform: rotate(-2deg);
 }
@@ -315,7 +315,7 @@ body {
   margin-top: -2px;
   width: var(--line-w);
   height: 25vmin;
-  background-image: linear-gradient(to top, transparent, var(--c));
+  background-image: linear-gradient(to top, black, pink);
 }
 .flower__grass__leaf {
   --size: 10vmin;
@@ -324,7 +324,7 @@ body {
   height: var(--size);
   border-top-left-radius: var(--size);
   border-top-right-radius: var(--size);
-  background-image: linear-gradient(to top, transparent, transparent 30%, var(--c));
+  background-image: linear-gradient(to top, black, pink);
   z-index: 100;
 }
 .flower__grass__leaf--1 {
